@@ -5,7 +5,7 @@ import 'package:app_004/widgets/expenses.dart';
 void main() {
   runApp(
     MaterialApp(
-      theme: ThemeData(useMaterial3: true),
+      theme: ThemeData().copyWith(useMaterial3: true),
       home: const Expenses(),
     ),
   );
